@@ -5,5 +5,15 @@
 
 
 #INICIO
+a=int(input("Ingrese el valor del primer numero  "))
+b=int(input("Ingrese el valor del segundo numero "))
+
+try:
+    c=a/b
+    print(c)
+except ZeroDivisionError as exception:
+    print(f"No puede dividirse por cero | {exception}")
+
+
 
 #FIN
